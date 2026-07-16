@@ -4,10 +4,17 @@
 
 ClauseForce automatically detects risks, contradictions, and conflicts between a Master Service Agreement (MSA) and a Statement of Work (SOW). What takes a lawyer 4–6 hours is done in under 2 minutes — with AI-generated redlines, severity scores, and an interactive clause knowledge graph.
 
+## Demo Video
+
+[![ClauseForce Demo](https://img.shields.io/badge/Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1DAEf6t7JA89nE6ACLFvs9LYgEtsxYcJp/view?usp=sharing)
+
+> Click the badge above or [open this link](https://drive.google.com/file/d/1DAEf6t7JA89nE6ACLFvs9LYgEtsxYcJp/view?usp=sharing) to watch the full demo.
+
 ---
 
 ## Table of Contents
 
+- [Demo Video](#demo-video)
 - [Problem Statement](#problem-statement)
 - [What We Built](#what-we-built)
 - [Architecture](#architecture)
