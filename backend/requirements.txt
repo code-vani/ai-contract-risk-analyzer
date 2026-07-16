@@ -1,0 +1,38 @@
+# Contract & SOW Risk Analyzer — Backend Dependencies
+# Install with:  pip install -r backend/requirements.txt
+
+# ── Component 1: Document Ingestion ──────────────────────────────────────────
+PyMuPDF>=1.24.0              # PDF text extraction and page-to-image fallback
+markitdown[pdf,docx]>=0.1.6  # Hybrid Markdown extraction for PDF and DOCX
+
+# ── Component 2: AI Clause Extraction ────────────────────────────────────────
+google-genai>=2.0.0          # Gemini API client (google-genai SDK, used by C2/C4)
+google-generativeai>=0.8.0   # Older Gemini SDK used by Component 5 redline_client.py
+python-dotenv>=1.0.0         # Load GEMINI_API_KEY from backend/.env
+
+# ── Component 4: Contradiction & Risk Detector ───────────────────────────────
+# Uses the same google-genai SDK as Component 2 — no extra package needed.
+
+# ── Component 3: Dependency Graph ────────────────────────────────────────────
+networkx>=3.0.0              # Graph construction, cycle detection, DAG checks
+
+# ── Dataset Access (LEDGAR few-shot examples, ContractNLI benchmark) ─────────
+datasets>=2.14.0             # Hugging Face datasets (Arrow stream format)
+pyarrow>=12.0.0              # Arrow IPC stream reading
+huggingface_hub>=0.17.0      # Used by fetch_contract_nli.py to download ContractNLI
+pandas>=2.0.0                # Used by fetch_contract_nli.py for dataset parsing
+
+# ── Component 6: FastAPI Backend Server ──────────────────────────────────────
+fastapi>=0.139.0             # API framework — file upload + analysis routes
+uvicorn>=0.38.0              # ASGI server to run FastAPI
+python-multipart>=0.0.32     # Required by FastAPI for multipart file uploads
+
+# ── Component 9: Audit Trail Database ────────────────────────────────────────
+SQLAlchemy>=2.0.0            # ORM over SQLite (backend/contract_analyzer.db)
+
+# ── Component 2 (v2): Hybrid Clause Extraction ───────────────────────────────
+scikit-learn>=1.4.0          # TF-IDF + LogisticRegression LEDGAR classifier (CPU only, no GPU)
+
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-docx>=1.0.0           # Used by test_extractor.py to create DOCX fixtures

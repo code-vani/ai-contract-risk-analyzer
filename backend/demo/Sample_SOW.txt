@@ -1,0 +1,182 @@
+STATEMENT OF WORK — CLOUD INFRASTRUCTURE MIGRATION & API GATEWAY DEVELOPMENT
+
+SOW Reference: SOW-2025-001
+Effective Date: February 1, 2025
+Master Services Agreement Date: January 1, 2025
+Parties: TechM Solutions Pvt. Ltd. ("Vendor") and Infosys Global Corp. ("Client")
+
+================================================================================
+
+Section 1 — Project Overview
+
+1.1  This Statement of Work ("SOW") is issued pursuant to and governed by the Master
+     Services Agreement ("MSA") dated January 1, 2025, between Vendor and Client.
+
+1.2  The Vendor shall design, develop, test, and deploy a Cloud Infrastructure
+     Migration solution and a RESTful API Gateway for Client's enterprise systems.
+     The project encompasses migration of Client's on-premise workloads to AWS,
+     development of a unified API Gateway, and delivery of all associated
+     documentation and training materials.
+
+1.3  All services under this SOW shall be performed in accordance with the terms
+     of the MSA and the additional terms set forth herein. In the event of any
+     conflict between this SOW and the MSA, the terms of this SOW shall govern
+     with respect to the specific project described herein.
+
+================================================================================
+
+Section 2 — Payment Terms and Milestone Schedule
+
+2.1  The total fixed fee for services under this SOW is INR 2,50,00,000 (Indian
+     Rupees Two Crore Fifty Lakhs), payable in milestone-linked installments as
+     set out in Section 2.3 below.
+
+2.2  All milestone-based invoices submitted by the Vendor shall be paid by the
+     Client within forty-five (45) days of receipt of the invoice and completion
+     certificate for the applicable milestone. This timeline supersedes the general
+     payment terms set forth in the MSA for the purposes of this SOW.
+
+2.3  Milestone Payment Schedule:
+
+     Milestone 1 — Project Kickoff and Requirements Sign-Off:     INR 25,00,000
+     Milestone 2 — Architecture Design Document Approved:          INR 40,00,000
+     Milestone 3 — Development Sprint 1 (Core API Gateway):       INR 50,00,000
+     Milestone 4 — Development Sprint 2 (Migration Batch 1):      INR 50,00,000
+     Milestone 5 — User Acceptance Testing Completion:            INR 50,00,000
+     Milestone 6 — Production Go-Live and Hypercare:              INR 35,00,000
+
+2.4  All payments shall be made by electronic funds transfer to the bank account
+     designated in writing by Vendor. Vendor shall issue a tax-compliant GST invoice
+     for each milestone payment.
+
+================================================================================
+
+Section 3 — Deliverables and Scope
+
+3.1  All deliverables, technical specifications, acceptance criteria, and detailed
+     project timelines for this SOW are as specified in Schedule 1 – Project Scope
+     Document, which must be executed concurrently with this SOW and forms an
+     integral part hereof. Client acknowledges that evaluation of deliverable
+     completeness cannot proceed without the referenced Schedule 1.
+
+3.2  The Vendor shall provide the following deliverables under this SOW:
+     (a)  Current-state architecture assessment report;
+     (b)  Target-state cloud architecture design document;
+     (c)  API Gateway source code, unit tests, and deployment scripts;
+     (d)  Data migration runbooks and rollback procedures;
+     (e)  Production deployment package with release notes;
+     (f)  Knowledge transfer documentation and training sessions.
+
+3.3  All deliverables shall be submitted to Client's designated Project Manager for
+     review and acceptance. Client shall provide written acceptance or a detailed
+     list of deficiencies within ten (10) business days of submission. Failure to
+     respond within this period shall constitute deemed acceptance.
+
+================================================================================
+
+Section 4 — Project Timeline
+
+4.1  The project shall commence on the SOW Effective Date and shall be completed
+     within nine (9) months, targeting a production go-live date of October 31, 2025,
+     subject to Client's timely provision of access, approvals, and resources as
+     specified in Schedule 1 – Project Scope Document.
+
+4.2  Vendor shall provide Client with bi-weekly progress reports. Any risk to the
+     timeline shall be communicated in writing within three (3) business days of
+     Vendor becoming aware of such risk.
+
+================================================================================
+
+Section 5 — Late Delivery and Service Level Penalties
+
+5.1  In the event that Vendor fails to deliver any milestone by the agreed date set
+     forth in the milestone schedule, Client shall be entitled to levy service level
+     deductions and penalty amounts as calculated and applied in accordance with the
+     penalty formula and deduction table defined in SOW Section 9 — Penalty
+     Calculations and Adjustments.
+
+5.2  The maximum aggregate penalty that Client may levy against Vendor under this
+     Section shall not exceed fifteen percent (15%) of the total SOW value.
+
+5.3  Penalties shall be applied by way of deduction from the next milestone payment
+     falling due after the penalty event, or by way of credit note if no further
+     payments are due.
+
+================================================================================
+
+Section 6 — Intellectual Property and Code Ownership
+
+6.1  Notwithstanding MSA Section 5 and notwithstanding any other provision of the
+     MSA or this SOW, all software code, API schemas, database schemas, configuration
+     scripts, architectural designs, and source artifacts developed by Vendor under
+     this SOW shall remain the sole and exclusive intellectual property of the Vendor
+     for a period of six (6) months following final delivery and Client acceptance.
+     During this retention period, Vendor grants Client a limited, non-exclusive,
+     non-transferable license to use the deliverables solely for internal business
+     purposes.
+
+6.2  Upon expiry of the six (6) month retention period described in Section 6.1,
+     and upon receipt of all outstanding payments due under this SOW, Vendor shall
+     execute an IP assignment agreement transferring all right, title, and interest
+     in the Deliverables to Client.
+
+================================================================================
+
+Section 7 — Liability for Data Breaches and Cybersecurity Incidents
+
+7.1  Notwithstanding MSA Section 7 and notwithstanding the general limitation of
+     liability provisions set forth therein, the Vendor's liability for any data
+     breach, cybersecurity incident, unauthorized access, data leakage, or
+     compromise of Client data arising from Vendor's acts or omissions shall be
+     uncapped and unlimited in amount.
+
+7.2  In the event of a data breach attributable to Vendor, Vendor shall: (a) notify
+     Client within 24 hours of discovery; (b) bear all costs of investigation,
+     remediation, and notification to affected parties; (c) indemnify Client for all
+     regulatory fines, penalties, third-party claims, and consequential losses arising
+     from the breach, without limit.
+
+================================================================================
+
+Section 8 — Termination for Convenience
+
+8.1  Client may terminate this Statement of Work for convenience at any time by
+     giving seven (7) days written notice to the Vendor. Upon such termination, Client
+     shall pay Vendor for all work completed and documented expenses incurred up to
+     the effective date of termination.
+
+8.2  Vendor may terminate this SOW for convenience by giving thirty (30) days written
+     notice to Client, provided that no active milestone delivery is in progress.
+
+================================================================================
+
+Section 9 — Penalty Calculations and Adjustments
+
+9.1  All penalty calculations, service level deduction percentages, and adjustments
+     to the total contract value applicable under Section 5 of this SOW shall be
+     determined by reference to the performance milestones, delivery dates, and
+     measurement criteria defined in SOW Section 5 — Late Delivery and Service Level
+     Penalties.
+
+9.2  Penalty amounts are calculated as follows: for each week of delay beyond the
+     agreed milestone date, a deduction of two percent (2%) of the applicable
+     milestone value shall be applied, subject to the aggregate cap specified in
+     Section 5.2.
+
+9.3  All penalty deductions shall be documented in a penalty notice issued by Client
+     and shall be subject to Vendor's right to dispute within five (5) business days
+     of receipt.
+
+================================================================================
+
+Section 10 — Acceptance and Signatures
+
+10.1  This SOW is effective upon execution by authorized representatives of both
+      parties and is subject to the terms and conditions of the MSA.
+
+TechM Solutions Pvt. Ltd.              Infosys Global Corp.
+
+Signature: ___________________         Signature: ___________________
+Name:      ___________________         Name:      ___________________
+Title:     ___________________         Title:     ___________________
+Date:      ___________________         Date:      ___________________
