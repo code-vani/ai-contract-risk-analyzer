@@ -266,4 +266,4 @@ Contract-SOW-Risk-Analyzer/
 | Vanshika Garg | Frontend |
 | Aryan Kataria | Backend |
 | Devashish Gupta | API Integration |
-| Panvir Singh | Member |
+| Panvir Singh | Database Integration |
