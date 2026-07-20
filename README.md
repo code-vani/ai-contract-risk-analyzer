@@ -265,12 +265,12 @@ Contract-SOW-Risk-Analyzer/
 
 ## Team
 
-**Team ClauseForce — Team 14**
+## Team ClauseForce — Team 14
 
-| Name | Role |
-|---|---|
-| Aryan Jain | Team Lead, Backend |
-| Vanshika Garg | Frontend |
-| Aryan Kataria | Backend |
-| Devashish Gupta | API Integration |
-| Panvir Singh | Database Integration |
+| Name |
+|------|
+| Aryan Jain |
+| Vanshika Garg |
+| Aryan Kataria |
+| Devashish Gupta |
+| Panvir Singh |
