@@ -263,14 +263,3 @@ Contract-SOW-Risk-Analyzer/
 
 ---
 
-## Team
-
-## Team ClauseForce — Team 14
-
-| Name |
-|------|
-| Aryan Jain |
-| Vanshika Garg |
-| Aryan Kataria |
-| Devashish Gupta |
-| Panvir Singh |
